@@ -7,6 +7,18 @@ using System.Security.Principal;
 
 namespace MyPassManager
 {
+	/**
+	
+	Sumarry:
+	
+	In this class we will simply update the data of the account selected from the list of accounts found.
+	
+	After modifying the data, user simply has to press the button and wait for database confirmation that everyhting went successfully.
+	It's following the same legend from saveAccountForm class for confirmation.
+	*/
+	
+	
+	
     public partial class updateAccountForm : Form
     {
         private IDisposable timerRefresh = EasyTimer.SetTimeout(()=> { },100);

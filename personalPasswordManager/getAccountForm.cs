@@ -16,6 +16,24 @@ public struct accountsDataView
 
 namespace MyPassManager
 {
+	
+	/**
+	
+	Summary:
+	
+	In this class, we will get the acconts saved in database. 
+	We can make a query using the dropdown and selecting an option from there
+	The data is gathered in a list and displaying only:
+	 - platform
+	 - username
+	 - email
+	
+	To get the password of an account quick, (left) click the arrow cell to the left of the row and the password will be copied to the clipboard
+	To delete an account, double (left) click the arrow cell accordingly to the row. Confirmation box appears before executing the operation.
+	To update an account, select a row and click on the "update account" button which will open a new window with the data of the account filled. Modify & save + 
+	user will receive confirmation from database
+	*/
+	
     public partial class getAccountForm : Form
     {
         IDisposable timerRefresh = EasyTimer.SetTimeout(() => { },100);

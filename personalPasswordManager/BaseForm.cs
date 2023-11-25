@@ -8,6 +8,21 @@ using System.Text;
 
 namespace MyPassManager
 {
+	
+	/**
+	
+	Summary:
+	
+	The base class of the application that will launch.
+	In this class we will only manage 3 things:
+	
+	- insert the master password which allows control to entire app 
+	- save a new account
+	- find an account using the fields filled when saving a new account.
+	
+	By default the control of the app will be reset after 5min from the confirmation of master password for security reasons.
+	
+	*/
 
     public partial class BaseForm : Form
     {

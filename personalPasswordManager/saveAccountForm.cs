@@ -7,6 +7,28 @@ using System.Security.Cryptography;
 
 namespace MyPassManager
 {
+	
+	/**
+	
+	Summary:
+	
+	This class is used to gather the following data from the fields:
+	
+	- platform
+	- generated pass (fill it with the password you want or generate a secure one)
+	- email 
+	- url of the platform
+	- username on the platform
+	
+	After filling the fields, the user will press the "Save Account" button which will send the data to the database.
+	The user will be able to receive a confirmation through the "Status" spheres presented below with the color legend:
+	
+	gray  => Waiting...
+	yellow  => no change
+	green => Success (created and saved)
+	blue => Updated (found and saved)
+	red => Fail/Error (failed to find document/Internal Error in application)
+	*/
     public partial class saveAccountForm : Form
     {
         IDisposable timerRefresh = EasyTimer.SetTimeout(() => { }, 100);
@@ -187,11 +209,6 @@ namespace MyPassManager
                 textBox_username.BeginInvoke((MethodInvoker)delegate () { textBox_username.Text = "".ToString(); });
 
             }, 3000);
-            //Debug.WriteLine(newTask.IsCanceled);
-            //Debug.WriteLine(newTask.IsCompleted);
-            //Debug.WriteLine(newTask.IsCompletedSuccessfully);
-            //Debug.WriteLine(newTask.IsFaulted);
-            //Debug.WriteLine(newTask.Status);
         }
 
         static string HashString(string text, string salt = "")
