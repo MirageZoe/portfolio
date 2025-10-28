@@ -22,10 +22,9 @@ These commands are temporary based on holidays mostly & feedback from the users.
 
 - Halloween => Trick-or-treaters will appear and you'll have the chance to greet them. Use the right command + code and they'll leave you something for your kindness. Collect everything and become the Champion of Halloween of <name> server!
 
-
 ## Fun Commands
 
-- ag => Artifact Generator for Genshin Impact Game. It simulates the generation of an artifact + the random upgrades that occur on levels 4,8,12,16 and 20.
+- > ag => Artifact Generator for Genshin Impact Game. It simulates the generation of an artifact + the random upgrades that occur on levels 4,8,12,16 and 20.
 - cat => Sends images with cats!
 - cf => Do a coinflip! What's going to be? Cats? Tails? or Claws?
 - dice => Guess each dice and win coins! In this game, you will have to guess what number each dice will drop. The position matters, which means that if you try to guess 2 dices: "5 3", if you say "3 5", you didn't win anything. Each guess will win you the exact amount of coins that the number dropped: if you got a 6 right, you got 6 coins, if 1, you get 1 coin.
