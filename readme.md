@@ -6,6 +6,9 @@ The commands will be presented in the format of:
 
 For more information, please use the help command in a discord server alongside the command name where Sharuru resides in.
 
+Example of help command displaying all possible commands at the moment:
+![example pic](https://cdn.discordapp.com/attachments/769229294740045874/1432621322349051934/help_menu.png?ex=6901b814&is=69006694&hm=68e6925df85874af10e7e41a9e1c9aa13aa354b4f6c9a0a3ad007edcd057c91f&)
+
 The commands are categorized in 5 main categories:
 - events
 - fun
